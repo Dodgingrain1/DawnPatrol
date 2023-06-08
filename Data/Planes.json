@@ -4,6 +4,7 @@
             "id":1,
             "planeType" : "Armstrong-Whitworth F.K 8",
             "engine":"160hp Beardsmore",
+            "rotary":false,
             "serviceStartDate":"1917-4-1",
             "serviceEndDate": "1918-11-11",
             "performanceStats": [
@@ -34,6 +35,7 @@
             "id":2,
             "planeType":"Bristol F.2B",
             "engine":"190hp Rolls Royce Falcon",
+            "rotary":false,
             "serviceStartDate":"1917-6-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -66,6 +68,7 @@
             "id":3,
             "planeType":"De Havilland 5",
             "engine":"110hp Le Rhone",
+            "rotary":false,
             "serviceStartDate":"1917-6-1",
             "serviceEndDate":"1918-1-1",
             "performanceStats": [
@@ -96,6 +99,7 @@
             "id":4,
             "planeType":"Dorand AR.2",
             "engine":"200hp Renault",
+            "rotary":false,
             "serviceStartDate":"1917-6-1",
             "serviceEndDate":"1918-2-1",
             "performanceStats": [
@@ -128,6 +132,7 @@
             "id":5,
             "planeType":"Nieuport 17",
             "engine":"110hp Le Rhone",
+            "rotary":false,
             "serviceStartDate":"1917-5-1",
             "serviceEndDate":"1918-2-1",
             "performanceStats": [
@@ -159,6 +164,7 @@
             "id":6,
             "planeType":"American D.H. 4",
             "engine":"400hp Liberty",
+            "rotary":false,
             "serviceStartDate":"1918-8-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -192,6 +198,7 @@
             "id":7,
             "planeType":"De Havilland 9",
             "engine":"230hp BHP/Siddeley Puma",
+            "rotary":false,
             "serviceStartDate":"1918-8-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -225,6 +232,7 @@
             "id":8,
             "planeType":"Hanriot HD-1",
             "engine":"110hp Le Rhone",
+            "rotary":false,
             "serviceStartDate":"1917-8-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -255,6 +263,7 @@
             "id":9,
             "planeType":"Nieuport 28",
             "engine":"160hp Gnome Monosoupape",
+            "rotary":false,
             "serviceStartDate":"1918-4-1",
             "serviceEndDate":"1918-8-1",
             "performanceStats": [
@@ -286,6 +295,7 @@
             "id":10,
             "planeType":"Breguet 14",
             "engine":"100hp Renault",
+            "rotary":false,
             "serviceStartDate":"1917-7-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -318,6 +328,7 @@
             "id":11,
             "planeType":"De Havilland 4",
             "engine":"250hp Rolls Royce",
+            "rotary":false,
             "serviceStartDate":"1917-4-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -350,6 +361,7 @@
             "id":12,
             "planeType":"De Havilland 9A",
             "engine":"400hp Liberty",
+            "rotary":false,
             "serviceStartDate":"1918-10-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -382,6 +394,7 @@
             "id":13,
             "planeType":"Morane-Saulnier AI",
             "engine":"160hp Gnome Monosoupape",
+            "rotary":false,
             "serviceStartDate":"1918-2-1",
             "serviceEndDate":"1918-5-1",
             "performanceStats": [
@@ -413,6 +426,7 @@
             "id":14,
             "planeType":"Pomilio PE",
             "engine":"200hp Fiat",
+            "rotary":false,
             "serviceStartDate":"1918-2-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -444,6 +458,7 @@
             "id":15,
             "planeType":"R.A.F. R.E. 8",
             "engine":"150hp R.A.F.",
+            "rotary":false,
             "serviceStartDate":"1916-12-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -474,6 +489,7 @@
             "id":16,
             "planeType":"R.A.F. S.E. 5",
             "engine":"150hp Hispano-Suiza",
+            "rotary":false,
             "serviceStartDate":"1917-5-1",
             "serviceEndDate":"1917-12-1",
             "performanceStats": [
@@ -505,6 +521,7 @@
             "id":17,
             "planeType":"Sopwith F.1 Camel",
             "engine":"150hp Bentley Rotary 1",
+            "rotary":true,
             "serviceStartDate":"1917-10-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -536,6 +553,7 @@
             "id":18,
             "planeType":"Sopwith 7F. 1 Snipe",
             "engine":"230hp Bentley Rotary 2",
+            "rotary":true,
             "serviceStartDate":"1918-10-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -567,6 +585,7 @@
             "id":19,
             "planeType":"S.P.A.D. VII",
             "engine":"180hp Hispano-Suiza",
+            "rotary":false,
             "serviceStartDate":"1916-10-1",
             "serviceEndDate":"1917-12-1",
             "performanceStats": [
@@ -597,6 +616,7 @@
             "id":20,
             "planeType":"Salmson 2A.2",
             "engine":"260hp Canton-Unne",
+            "rotary":false,
             "serviceStartDate":"1918-2-1",
             "serviceEndDate":"1918-11-1",
             "performanceStats": [
@@ -631,6 +651,7 @@
             "id":21,
             "planeType":"R.A.F. S.E. 5a",
             "engine":"200hp Hispano-Suiza",
+            "rotary":false,
             "serviceStartDate":"1917-7-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -662,6 +683,7 @@
             "id":22,
             "planeType":"Sopwith 5F.1 Dolphin",
             "engine":"200hp Hispano-Suiza",
+            "rotary":false,
             "serviceStartDate":"1918-1-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -695,6 +717,7 @@
             "id":23,
             "planeType":"Sopwith 1 1/2 Strutter",
             "engine":"130hp Clerget",
+            "rotary":false,
             "serviceStartDate":"1916-7-1",
             "serviceEndDate":"1918-3-1",
             "performanceStats": [
@@ -726,6 +749,7 @@
             "id":24,
             "planeType":"S.P.A.D. XI",
             "engine":"215hp Hispano-Suiza",
+            "rotary":false,
             "serviceStartDate":"1917-7-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -758,6 +782,7 @@
             "id":25,
             "planeType":"S.A.M.L. 2",
             "engine":"260hp Fiat",
+            "rotary":false,
             "serviceStartDate":"1917-8-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -789,6 +814,7 @@
             "id":26,
             "planeType":"Sopwith F.1 Camel",
             "engine":"130hp Clerget",
+            "rotary":false,
             "serviceStartDate":"1917-7-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -820,6 +846,7 @@
             "id":27,
             "planeType":"Sopwith Pup",
             "engine":"80hp Le Rhone",
+            "rotary":false,
             "serviceStartDate":"1916-11-1",
             "serviceEndDate":"1917-12-1",
             "performanceStats": [
@@ -850,6 +877,7 @@
             "id":28,
             "planeType":"Sopwith Triplane",
             "engine":"130hp Clerget",
+            "rotary":false,
             "serviceStartDate":"1917-4-1",
             "serviceEndDate":"1917-10-1",
             "performanceStats": [
@@ -880,6 +908,7 @@
             "id":29,
             "planeType":"S.P.A.D. XIII",
             "engine":"230hp Hispano-Suiza",
+            "rotary":false,
             "serviceStartDate":"1917-10-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -911,6 +940,7 @@
             "id":30,
             "planeType":"Halberstadt CL II",
             "engine":"160hp Mercedes",
+            "rotary":false,
             "serviceStartDate":"1917-8-1",
             "serviceEndDate":"1918-7-1",
             "performanceStats": [
@@ -942,6 +972,7 @@
             "id":31,
             "planeType":"L.V.G. C V",
             "engine":"200hp Benz",
+            "rotary":false,
             "serviceStartDate":"1917-9-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -973,6 +1004,7 @@
             "id":32,
             "planeType":"Pfalz D III",
             "engine":"160hp Mercedes",
+            "rotary":false,
             "serviceStartDate":"1917-9-1",
             "serviceEndDate":"1918-3-1",
             "performanceStats": [
@@ -1004,6 +1036,7 @@
             "id":33,
             "planeType":"Phonix D I",
             "engine":"200hp Hiero",
+            "rotary":false,
             "serviceStartDate":"1918-5-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -1035,6 +1068,7 @@
             "id":34,
             "planeType":"Roland D VIb",
             "engine":"200hp Benz",
+            "rotary":false,
             "serviceStartDate":"1918-7-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -1066,6 +1100,7 @@
             "id":35,
             "planeType":"Halberstadt CL IV",
             "engine":"160hp Mercedes",
+            "rotary":false,
             "serviceStartDate":"1918-3-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -1097,6 +1132,7 @@
             "id":36,
             "planeType":"L.V.G. C VI",
             "engine":"200hp Benz",
+            "rotary":false,
             "serviceStartDate":"1918-4-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -1128,6 +1164,7 @@
             "id":37,
             "planeType":"Pfalz D IIIa",
             "engine":"180hp Mercedes",
+            "rotary":false,
             "serviceStartDate":"1917-12-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -1159,6 +1196,7 @@
             "id":38,
             "planeType":"Roland C II",
             "engine":"160hp Mercedes",
+            "rotary":false,
             "serviceStartDate":"1916-5-1",
             "serviceEndDate":"1917-5-1",
             "performanceStats": [
@@ -1190,6 +1228,7 @@
             "id":39,
             "planeType":"Rumpler C IV",
             "engine":"260hp Mercedes",
+            "rotary":false,
             "serviceStartDate":"1917-2-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -1221,6 +1260,7 @@
             "id":40,
             "planeType":"Hannover CL IIIa",
             "engine":"180hp Argus",
+            "rotary":false,
             "serviceStartDate":"1918-5-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -1252,6 +1292,7 @@
             "id":41,
             "planeType":"O. Aviatik (Berg) D I",
             "engine":"200hp Austro-Diamler",
+            "rotary":false,
             "serviceStartDate":"1917-10-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -1283,6 +1324,7 @@
             "id":42,
             "planeType":"Pfalz D XII",
             "engine":"180hp Mercedes",
+            "rotary":false,
             "serviceStartDate":"1918-9-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -1314,6 +1356,7 @@
             "id":43,
             "planeType":"Roland D IIa",
             "engine":"180hp Argus",
+            "rotary":false,
             "serviceStartDate":"1917-2-1",
             "serviceEndDate":"1917-8-1",
             "performanceStats": [
@@ -1345,6 +1388,7 @@
             "id":44,
             "planeType":"Siemens-Schuckert D IV",
             "engine":"200hp Siemens-Halske",
+            "rotary":false,
             "serviceStartDate":"1918-8-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -1376,6 +1420,7 @@
             "id":45,
             "planeType":"A.E.G. C IV",
             "engine":"160hp Mercedes",
+            "rotary":false,
             "serviceStartDate":"1916-5-1",
             "serviceEndDate":"1918-8-1",
             "performanceStats": [
@@ -1407,6 +1452,7 @@
             "id":46,
             "planeType":"Albatros C XII",
             "engine":"260hp Mercedes",
+            "rotary":false,
             "serviceStartDate":"1918-5-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -1438,6 +1484,7 @@
             "id":47,
             "planeType":"Albatros (Oeffag) D III",
             "engine":"185hp Austro-Daimler",
+            "rotary":false,
             "serviceStartDate":"1917-5-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -1469,6 +1516,7 @@
             "id":48,
             "planeType":"Albatros W.4",
             "engine":"160hp Mercedes",
+            "rotary":false,
             "serviceStartDate":"1917-4-1",
             "serviceEndDate":"1918-5-1",
             "performanceStats": [
@@ -1498,6 +1546,7 @@
             "id":49,
             "planeType":"Fokker D VII",
             "engine":"185hp B.M.W.",
+            "rotary":false,
             "serviceStartDate":"1918-7-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -1529,6 +1578,7 @@
             "id":50,
             "planeType":"Albatros C VII",
             "engine":"200hp Benz",
+            "rotary":false,
             "serviceStartDate":"1916-12-1",
             "serviceEndDate":"1917-12-1",
             "performanceStats": [
@@ -1560,6 +1610,7 @@
             "id":51,
             "planeType":"Albatros D II",
             "engine":"160hp Mercedes",
+            "rotary":false,
             "serviceStartDate":"1916-11-1",
             "serviceEndDate":"1917-8-1",
             "performanceStats": [
@@ -1591,6 +1642,7 @@
             "id":52,
             "planeType":"Albatros D V",
             "engine":"160hp Mercedes",
+            "rotary":false,
             "serviceStartDate":"1917-11-1",
             "serviceEndDate":"1918-8-1",
             "performanceStats": [
@@ -1622,6 +1674,7 @@
             "id":53,
             "planeType":"D.F.W. C V",
             "engine":"200hp Benz",
+            "rotary":false,
             "serviceStartDate":"1916-12-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -1653,6 +1706,7 @@
             "id":54,
             "planeType":"Fokker D VIII",
             "engine":"110hp Oberursel",
+            "rotary":false,
             "serviceStartDate":"1918-10-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -1684,6 +1738,7 @@
             "id":55,
             "planeType":"Albatros C X",
             "engine":"260hp Mercedes",
+            "rotary":false,
             "serviceStartDate":"1917-9-1",
             "serviceEndDate":"1918-7-1",
             "performanceStats": [
@@ -1715,6 +1770,7 @@
             "id":56,
             "planeType":"Albatros D III",
             "engine":"160hp Mercedes",
+            "rotary":false,
             "serviceStartDate":"1917-9-1",
             "serviceEndDate":"1918-7-1",
             "performanceStats": [
@@ -1746,6 +1802,7 @@
             "id":57,
             "planeType":"Albatros D Va",
             "engine":"180hp Mercedes",
+            "rotary":false,
             "serviceStartDate":"1917-1-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -1777,6 +1834,7 @@
             "id":58,
             "planeType":"Fokker D VII",
             "engine":"160hp Mercedes",
+            "rotary":false,
             "serviceStartDate":"1918-5-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
@@ -1808,6 +1866,7 @@
             "id":59,
             "planeType":"Fokker Dr I",
             "engine":"110hp Oberursel",
+            "rotary":true,
             "serviceStartDate":"1917-12-1",
             "serviceEndDate":"1918-11-11",
             "performanceStats": [
