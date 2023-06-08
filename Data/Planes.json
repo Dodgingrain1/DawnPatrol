@@ -1,0 +1,1779 @@
+{
+    "planes": [
+        {
+            "planeType" : "Armstrong-Whitworth F.K 8",
+            "engine":"160hp Beardsmore",
+            "serviceStartDate":"1917-4-1",
+            "serviceEndDate": "1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":100, "turn":80, "climb":150},
+                {"alt":9950,  "top":90,  "turn":70, "climb":100},
+                {"alt":14950, "top":90,  "turn":60, "climb":50}
+            ],
+            "maxDive":1400,
+            "ceiling":13000,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat obs", "recon", "ground attack"],
+            "nationality":["British"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":11},
+                {"area":"RW", "points":11}
+            ]
+        }, 
+        
+        {
+            "planeType":"Bristol F.2B",
+            "engine":"190hp Rolls Royce Falcon",
+            "serviceStartDate":"1917-6-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":90, "climb":300},
+                {"alt":9950,  "top":100, "turn":80, "climb":250},
+                {"alt":14950, "top":90,  "turn":70, "climb":200},
+                {"alt":20000, "top":90,  "turn":70, "climb":100}
+            ],
+            "maxDive":1500,
+            "ceiling":20000,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat fighter", "recon", "ground attack"],
+            "nationality":["British"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },
+
+        {
+            "planeType":"De Havilland 5",
+            "engine":"110hp Le Rhone",
+            "serviceStartDate":"1917-6-1",
+            "serviceEndDate":"1918-1-1",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":90, "climb":300},
+                {"alt":9950,  "top":100, "turn":80, "climb":200},
+                {"alt":14950, "top":90,  "turn":70, "climb":100},
+                {"alt":16000, "top":80,  "turn":60, "climb":50}
+            ],
+            "maxDive":1550,
+            "ceiling":16000,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter", "ground attack"],
+            "nationality":["British"],
+            "hitProfiles":[
+                {"area":"E", "points":6},
+                {"area":"FF", "points":10},
+                {"area":"RF", "points":15},
+                {"area":"T", "points":10},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":11},
+                {"area":"RW", "points":11}
+            ]
+        },    
+
+        {
+            "planeType":"Dorand AR.2",
+            "engine":"200hp Renault",
+            "serviceStartDate":"1917-6-1",
+            "serviceEndDate":"1918-2-1",
+            "performanceStats": [
+                {"alt":4950,  "top":100, "turn":80, "climb":250},
+                {"alt":9950,  "top":90,  "turn":70, "climb":150},
+                {"alt":14950, "top":80,  "turn":70, "climb":100},
+                {"alt":16500, "top":80,  "turn":60, "climb":50}
+            ],
+            "maxDive":1400,
+            "ceiling":16500,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat obs","recon","bombing"],
+            "nationality":["French"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":11},
+                {"area":"RW", "points":11}
+            ]
+        },    
+
+        {
+            "planeType":"Nieuport 17",
+            "engine":"110hp Le Rhone",
+            "serviceStartDate":"1917-5-1",
+            "serviceEndDate":"1918-2-1",
+            "performanceStats": [
+                {"alt":4950,  "top":100, "turn":100, "climb":400},
+                {"alt":9950,  "top":100, "turn":90,  "climb":350},
+                {"alt":14950, "top":90,  "turn":80,  "climb":300},
+                {"alt":17500, "top":80,  "turn":70,  "climb":200}
+            ],
+            "maxDive":1350,
+            "ceiling":17500,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"lewis", "mount":"ff wing", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["French","British","Italian","Belgian"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":10},
+                {"area":"RF", "points":14},
+                {"area":"T",  "points":10},
+                {"area":"LW", "points":10},
+                {"area":"CW", "points":10},
+                {"area":"RW", "points":10}
+            ]
+        },    
+
+        {
+            "planeType":"American D.H. 4",
+            "engine":"400hp Liberty",
+            "serviceStartDate":"1918-8-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":120, "turn":90, "climb":250},
+                {"alt":9950,  "top":110, "turn":80, "climb":200},
+                {"alt":14950, "top":110, "turn":80, "climb":150},
+                {"alt":15800, "top":100, "turn":70, "climb":100}
+            ],
+            "maxDive":1400,
+            "ceiling":15800,
+            "armament":[
+                {"gunType":"marlin", "mount":"ff", "rounds":30, "store":"belt"},
+                {"gunType":"marlin", "mount":"ff", "rounds":30, "store":"belt"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat obs", "two seat bombing", "recon"],
+            "nationality":["American"],
+            "hitProfiles":[
+                {"area":"E",  "points":7},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"De Havilland 9",
+            "engine":"230hp BHP/Siddeley Puma",
+            "serviceStartDate":"1918-8-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":120, "turn":90, "climb":250},
+                {"alt":9950,  "top":110, "turn":80, "climb":200},
+                {"alt":14950, "top":110, "turn":80, "climb":150},
+                {"alt":15500, "top":100, "turn":70, "climb":100}
+            ],
+            "maxDive":1400,
+            "ceiling":15500,
+            "armament":[
+                {"gunType":"marlin", "mount":"ff", "rounds":30, "store":"belt"},
+                {"gunType":"marlin", "mount":"ff", "rounds":30, "store":"belt"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat obs", "two seat bombing", "recon"],
+            "nationality":["American"],
+            "hitProfiles":[
+                {"area":"E",  "points":7},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Hanriot HD-1",
+            "engine":"110hp Le Rhone",
+            "serviceStartDate":"1917-8-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":100, "climb":350},
+                {"alt":9950,  "top":100, "turn":90,  "climb":300},
+                {"alt":14950, "top":90,  "turn":80,  "climb":200},
+                {"alt":21000, "top":80,  "turn":70,  "climb":150}
+            ],
+            "maxDive":1500,
+            "ceiling":21000,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["Italian","Belgian"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":10},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":10},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":11},
+                {"area":"RW", "points":11}
+            ]
+        },            
+
+        {
+            "planeType":"Nieuport 28",
+            "engine":"160hp Gnome Monosoupape",
+            "serviceStartDate":"1918-4-1",
+            "serviceEndDate":"1918-8-1",
+            "performanceStats": [
+                {"alt":4950,  "top":130, "turn":100, "climb":350},
+                {"alt":9950,  "top":120, "turn":100, "climb":300},
+                {"alt":14950, "top":120, "turn":90,  "climb":250},
+                {"alt":19000, "top":110, "turn":80,  "climb":200}
+            ],
+            "maxDive":1400,
+            "ceiling":19000,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["American"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":11},
+                {"area":"RW", "points":11}
+            ]
+        },            
+
+        {
+            "planeType":"Breguet 14",
+            "engine":"100hp Renault",
+            "serviceStartDate":"1917-7-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":80, "climb":300},
+                {"alt":9950,  "top":100, "turn":80, "climb":250},
+                {"alt":14950, "top":90,  "turn":70, "climb":200},
+                {"alt":19600, "top":80,  "turn":60, "climb":100}
+            ],
+            "maxDive":1400,
+            "ceiling":19600,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat bombing", "recon"],
+            "nationality":["French","Belgian","American"],
+            "hitProfiles":[
+                {"area":"E",  "points":7},
+                {"area":"FF", "points":12},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":12},
+                {"area":"LW", "points":13},
+                {"area":"CW", "points":13},
+                {"area":"RW", "points":13}
+            ]
+        },            
+
+        {
+            "planeType":"De Havilland 4",
+            "engine":"250hp Rolls Royce",
+            "serviceStartDate":"1917-4-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":120, "turn":80, "climb":250},
+                {"alt":9950,  "top":110, "turn":80, "climb":200},
+                {"alt":14950, "top":100, "turn":70, "climb":100},
+                {"alt":16000, "top":90,  "turn":60, "climb":50}
+            ],
+            "maxDive":1400,
+            "ceiling":16000,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat bombing","recon"],
+            "nationality":["British"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"De Havilland 9A",
+            "engine":"400hp Liberty",
+            "serviceStartDate":"1918-10-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":120, "turn":90, "climb":300},
+                {"alt":9950,  "top":120, "turn":80, "climb":250},
+                {"alt":14950, "top":110, "turn":80, "climb":150},
+                {"alt":16750, "top":100, "turn":70, "climb":100}
+            ],
+            "maxDive":1400,
+            "ceiling":16750,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat bombing"],
+            "nationality":["British"],
+            "hitProfiles":[
+                {"area":"E",  "points":7},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Morane-Saulnier AI",
+            "engine":"160hp Gnome Monosoupape",
+            "serviceStartDate":"1918-2-1",
+            "serviceEndDate":"1918-5-1",
+            "performanceStats": [
+                {"alt":4950,  "top":130, "turn":100, "climb":450},
+                {"alt":9950,  "top":130, "turn":90,  "climb":350},
+                {"alt":14950, "top":120, "turn":80,  "climb":250},
+                {"alt":23000, "top":110, "turn":80,  "climb":150}
+            ],
+            "maxDive":1500,
+            "ceiling":23000,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["French"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":11},
+                {"area":"RW", "points":11}
+            ]
+        },            
+
+        {
+            "planeType":"Pomilio PE",
+            "engine":"200hp Fiat",
+            "serviceStartDate":"1918-2-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":80,  "climb":250},
+                {"alt":9950,  "top":100, "turn":80,  "climb":200},
+                {"alt":14950, "top":90,  "turn":70,  "climb":150},
+                {"alt":16400, "top":80,  "turn":60,  "climb":100}
+            ],
+            "maxDive":1400,
+            "ceiling":16400,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat recon", "observation"],
+            "nationality":["Italian"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":11},
+                {"area":"RW", "points":11}
+            ]
+        },            
+
+        {
+            "planeType":"R.A.F. R.E. 8",
+            "engine":"150hp R.A.F.",
+            "serviceStartDate":"1916-12-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":100, "turn":80,  "climb":200},
+                {"alt":9950,  "top":90,  "turn":70,  "climb":100},
+                {"alt":13500, "top":80,  "turn":60,  "climb":50}
+            ],
+            "maxDive":1200,
+            "ceiling":13500,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat obs", "recon", "ground attack"],
+            "nationality":["British", "Belgian"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":10},
+                {"area":"RF", "points":14},
+                {"area":"T",  "points":10},
+                {"area":"LW", "points":10},
+                {"area":"CW", "points":10},
+                {"area":"RW", "points":10}
+            ]
+        },            
+
+        {
+            "planeType":"R.A.F. S.E. 5",
+            "engine":"150hp Hispano-Suiza",
+            "serviceStartDate":"1917-5-1",
+            "serviceEndDate":"1917-12-1",
+            "performanceStats": [
+                {"alt":4950,  "top":120, "turn":90,  "climb":300},
+                {"alt":9950,  "top":110, "turn":80,  "climb":200},
+                {"alt":14950, "top":110, "turn":70,  "climb":100},
+                {"alt":17000, "top":100, "turn":70,  "climb":50}
+            ],
+            "maxDive":1500,
+            "ceiling":17000,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"lewis", "mount":"ff wing", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["single seat fighter", "ground attack"],
+            "nationality":["British"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":12},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Sopwith F.1 Camel",
+            "engine":"150hp Bentley Rotary 1",
+            "serviceStartDate":"1917-10-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":120, "turn":110, "climb":400},
+                {"alt":9950,  "top":110, "turn":110, "climb":350},
+                {"alt":14950, "top":110, "turn":100, "climb":250},
+                {"alt":22000, "top":100, "turn":90,  "climb":200}
+            ],
+            "maxDive":1500,
+            "ceiling":22000,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter", "ground attack"],
+            "nationality":["British"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Sopwith 7F. 1 Snipe",
+            "engine":"230hp Bentley Rotary 2",
+            "serviceStartDate":"1918-10-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":120, "turn":110, "climb":350},
+                {"alt":9950,  "top":120, "turn":110, "climb":300},
+                {"alt":14950, "top":110, "turn":100, "climb":250},
+                {"alt":19500, "top":110, "turn":100, "climb":200}
+            ],
+            "maxDive":1500,
+            "ceiling":19500,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter", "ground attack"],
+            "nationality":["British"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"S.P.A.D. VII",
+            "engine":"180hp Hispano-Suiza",
+            "serviceStartDate":"1916-10-1",
+            "serviceEndDate":"1917-12-1",
+            "performanceStats": [
+                {"alt":4950,  "top":120, "turn":90, "climb":300},
+                {"alt":9950,  "top":110, "turn":80, "climb":250},
+                {"alt":14950, "top":110, "turn":70, "climb":200},
+                {"alt":18000, "top":100, "turn":60, "climb":100}
+            ],
+            "maxDive":1550,
+            "ceiling":18000,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["French","British","Italian","Belgian"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":12},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":12},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Salmson 2A.2",
+            "engine":"260hp Canton-Unne",
+            "serviceStartDate":"1918-2-1",
+            "serviceEndDate":"1918-11-1",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":80, "climb":300},
+                {"alt":9950,  "top":110, "turn":80, "climb":250},
+                {"alt":14950, "top":100, "turn":70, "climb":150},
+                {"alt":20500, "top":90,  "turn":70, "climb":100}
+            ],
+            "maxDive":1400,
+            "ceiling":20500,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"martin", "mount":"ff", "rounds":30, "store":"belt"},
+                {"gunType":"martin", "mount":"ff", "rounds":30, "store":"belt"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat recon", "ground attack"],
+            "nationality":["French","American"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":12},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":12},
+                {"area":"LW", "points":13},
+                {"area":"CW", "points":13},
+                {"area":"RW", "points":13}
+            ]
+        },            
+
+        {
+            "planeType":"R.A.F. S.E. 5a",
+            "engine":"200hp Hispano-Suiza",
+            "serviceStartDate":"1917-7-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":130, "turn":100, "climb":350},
+                {"alt":9950,  "top":120, "turn":90,  "climb":250},
+                {"alt":14950, "top":120, "turn":80,  "climb":200},
+                {"alt":22000, "top":110, "turn":70,  "climb":150}
+            ],
+            "maxDive":1500,
+            "ceiling":22000,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"vickers", "mount":"ff wing", "rounds":40, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter","ground attack"],
+            "nationality":["British"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":12},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Sopwith 5F.1 Dolphin",
+            "engine":"200hp Hispano-Suiza",
+            "serviceStartDate":"1918-1-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":130, "turn":100, "climb":400},
+                {"alt":9950,  "top":120, "turn":90,  "climb":300},
+                {"alt":14950, "top":120, "turn":90,  "climb":250},
+                {"alt":21000, "top":110, "turn":80,  "climb":150}
+            ],
+            "maxDive":1500,
+            "ceiling":21000,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"lewis", "mount":"ff flx", "rounds":10, "store":"drum"},
+                {"gunType":"lewis", "mount":"ff flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["single seat fighter","ground attack"],
+            "nationality":["British"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":12},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Sopwith 1 1/2 Strutter",
+            "engine":"130hp Clerget",
+            "serviceStartDate":"1916-7-1",
+            "serviceEndDate":"1918-3-1",
+            "performanceStats": [
+                {"alt":4950,  "top":100, "turn":70, "climb":250},
+                {"alt":9950,  "top":90,  "turn":70, "climb":150},
+                {"alt":14950, "top":80,  "turn":60, "climb":100},
+                {"alt":15500, "top":70,  "turn":60, "climb":50}
+            ],
+            "maxDive":1400,
+            "ceiling":15500,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["single seat bombing", "two seat bombing", "recon", "ground attack"],
+            "nationality":["British", "French", "Belgian"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":10},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":10},
+                {"area":"LW", "points":10},
+                {"area":"CW", "points":10},
+                {"area":"RW", "points":10}
+            ]
+        },            
+
+        {
+            "planeType":"S.P.A.D. XI",
+            "engine":"215hp Hispano-Suiza",
+            "serviceStartDate":"1917-7-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":80, "climb":300},
+                {"alt":9950,  "top":110, "turn":70, "climb":200},
+                {"alt":14950, "top":100, "turn":70, "climb":150},
+                {"alt":23000, "top":100, "turn":60, "climb":100}
+            ],
+            "maxDive":1400,
+            "ceiling":23000,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"},
+                {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat obs","recon","bombing"],
+            "nationality":["French", "Belgian"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":12},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":12},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"S.A.M.L. 2",
+            "engine":"260hp Fiat",
+            "serviceStartDate":"1917-8-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":100, "turn":80, "climb":200},
+                {"alt":9950,  "top":90,  "turn":70, "climb":150},
+                {"alt":14950, "top":80,  "turn":70, "climb":100},
+                {"alt":16400, "top":70,  "turn":60, "climb":50}
+            ],
+            "maxDive":1400,
+            "ceiling":16400,
+            "armament":[
+                {"gunType":"revelli", "mount":"ff wing", "rounds":10, "store":"drum"},
+                {"gunType":"revelli", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat obs","recon","ground attack"],
+            "nationality":["Italian"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Sopwith F.1 Camel",
+            "engine":"130hp Clerget",
+            "serviceStartDate":"1917-7-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":100, "climb":350},
+                {"alt":9950,  "top":100, "turn":100, "climb":250},
+                {"alt":14950, "top":100, "turn":90,  "climb":150},
+                {"alt":19000, "top":90,  "turn":80,  "climb":100}
+            ],
+            "maxDive":1500,
+            "ceiling":19000,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter", "ground attack"],
+            "nationality":["British", "American"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Sopwith Pup",
+            "engine":"80hp Le Rhone",
+            "serviceStartDate":"1916-11-1",
+            "serviceEndDate":"1917-12-1",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":100, "climb":250},
+                {"alt":9950,  "top":100, "turn":90,  "climb":200},
+                {"alt":14950, "top":90,  "turn":80,  "climb":150},
+                {"alt":17500, "top":80,  "turn":80,  "climb":100}
+            ],
+            "maxDive":1500,
+            "ceiling":17500,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter", "ground attack"],
+            "nationality":["British"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":10},
+                {"area":"RF", "points":14},
+                {"area":"T",  "points":10},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":11},
+                {"area":"RW", "points":11}
+            ]
+        },            
+
+        {
+            "planeType":"Sopwith Triplane",
+            "engine":"130hp Clerget",
+            "serviceStartDate":"1917-4-1",
+            "serviceEndDate":"1917-10-1",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":100, "climb":350},
+                {"alt":9950,  "top":110, "turn":90,  "climb":300},
+                {"alt":14950, "top":100, "turn":80,  "climb":200},
+                {"alt":20500, "top":90,  "turn":70,  "climb":150}
+            ],
+            "maxDive":1450,
+            "ceiling":20500,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["British"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":10},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":10},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":11},
+                {"area":"RW", "points":11}
+            ]
+        },            
+
+        {
+            "planeType":"S.P.A.D. XIII",
+            "engine":"230hp Hispano-Suiza",
+            "serviceStartDate":"1917-10-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":130, "turn":100, "climb":400},
+                {"alt":9950,  "top":120, "turn":90,  "climb":300},
+                {"alt":14950, "top":120, "turn":80,  "climb":250},
+                {"alt":22300, "top":110, "turn":70,  "climb":150}
+            ],
+            "maxDive":1600,
+            "ceiling":22300,
+            "armament":[
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
+                {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["French", "American", "Italian", "Belgian"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":12},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Halberstadt CL II",
+            "engine":"160hp Mercedes",
+            "serviceStartDate":"1917-8-1",
+            "serviceEndDate":"1918-7-1",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":80, "climb":200},
+                {"alt":9950,  "top":100, "turn":70, "climb":150},
+                {"alt":14950, "top":100, "turn":70, "climb":100},
+                {"alt":16700, "top":90,  "turn":60, "climb":50}
+            ],
+            "maxDive":1500,
+            "ceiling":16700,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat ground attack", "fighter"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"L.V.G. C V",
+            "engine":"200hp Benz",
+            "serviceStartDate":"1917-9-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":100, "turn":80, "climb":200},
+                {"alt":9950,  "top":90,  "turn":70, "climb":150},
+                {"alt":14950, "top":90,  "turn":70, "climb":100},
+                {"alt":16500, "top":80,  "turn":60, "climb":50}
+            ],
+            "maxDive":1400,
+            "ceiling":16500,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat obs", "recon", "ground attack"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Pfalz D III",
+            "engine":"160hp Mercedes",
+            "serviceStartDate":"1917-9-1",
+            "serviceEndDate":"1918-3-1",
+            "performanceStats": [
+                {"alt":4950,  "top":100, "turn":80, "climb":250},
+                {"alt":9950,  "top":100, "turn":80, "climb":200},
+                {"alt":14950, "top":90,  "turn":70, "climb":150},
+                {"alt":17000, "top":80,  "turn":60, "climb":100}
+            ],
+            "maxDive":1550,
+            "ceiling":17000,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Phonix D I",
+            "engine":"200hp Hiero",
+            "serviceStartDate":"1918-5-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":80, "climb":300},
+                {"alt":9950,  "top":110, "turn":80, "climb":250},
+                {"alt":14950, "top":100, "turn":70, "climb":200},
+                {"alt":21500, "top":90,  "turn":70, "climb":150}
+            ],
+            "maxDive":1500,
+            "ceiling":21500,
+            "armament":[
+                {"gunType":"schwarzlose", "mount":"ff", "rounds":30, "store":"belt"},
+                {"gunType":"schwarzlose", "mount":"ff", "rounds":30, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["Austro-Hungarian"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Roland D VIb",
+            "engine":"200hp Benz",
+            "serviceStartDate":"1918-7-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":90, "climb":300},
+                {"alt":9950,  "top":100, "turn":90, "climb":250},
+                {"alt":14950, "top":100, "turn":80, "climb":200},
+                {"alt":19000, "top":90,  "turn":80, "climb":100}
+            ],
+            "maxDive":1500,
+            "ceiling":19000,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Halberstadt CL IV",
+            "engine":"160hp Mercedes",
+            "serviceStartDate":"1918-3-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":80, "climb":300},
+                {"alt":9950,  "top":100, "turn":80, "climb":200},
+                {"alt":14950, "top":100, "turn":70, "climb":150},
+                {"alt":16700, "top":90,  "turn":70, "climb":100}
+            ],
+            "maxDive":1500,
+            "ceiling":16700,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"belt"}
+            ],
+            "primaryUses":["two seat ground attack", "fighter"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"L.V.G. C VI",
+            "engine":"200hp Benz",
+            "serviceStartDate":"1918-4-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":80, "climb":250},
+                {"alt":9950,  "top":100, "turn":70, "climb":200},
+                {"alt":14950, "top":90,  "turn":70, "climb":150},
+                {"alt":21350, "top":80,  "turn":60, "climb":100}
+            ],
+            "maxDive":1400,
+            "ceiling":21350,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"belt"}
+            ],
+            "primaryUses":["two seat obs", "ground attack", "recon"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Pfalz D IIIa",
+            "engine":"180hp Mercedes",
+            "serviceStartDate":"1917-12-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":90, "climb":300},
+                {"alt":9950,  "top":100, "turn":90, "climb":250},
+                {"alt":14950, "top":90,  "turn":80, "climb":200},
+                {"alt":17000, "top":80,  "turn":70, "climb":150}
+            ],
+            "maxDive":1550,
+            "ceiling":17000,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Roland C II",
+            "engine":"160hp Mercedes",
+            "serviceStartDate":"1916-5-1",
+            "serviceEndDate":"1917-5-1",
+            "performanceStats": [
+                {"alt":4950,  "top":100, "turn":80, "climb":150},
+                {"alt":9950,  "top":90,  "turn":70, "climb":100},
+                {"alt":14950, "top":90,  "turn":70, "climb":100},
+                {"alt":16500, "top":80,  "turn":60, "climb":50}
+            ],
+            "maxDive":1400,
+            "ceiling":17000,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat recon"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":11},
+                {"area":"RW", "points":11}
+            ]
+        },            
+
+        {
+            "planeType":"Rumpler C IV",
+            "engine":"260hp Mercedes",
+            "serviceStartDate":"1917-2-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":80, "climb":300},
+                {"alt":9950,  "top":100, "turn":70, "climb":250},
+                {"alt":14950, "top":100, "turn":70, "climb":200},
+                {"alt":21000, "top":90,  "turn":60, "climb":150}
+            ],
+            "maxDive":1400,
+            "ceiling":21000,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat recon"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":11},
+                {"area":"RW", "points":11}
+            ]
+        },            
+
+        {
+            "planeType":"Hannover CL IIIa",
+            "engine":"180hp Argus",
+            "serviceStartDate":"1918-5-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":100, "turn":90, "climb":250},
+                {"alt":9950,  "top":100, "turn":80, "climb":200},
+                {"alt":14950, "top":90,  "turn":80, "climb":150},
+                {"alt":24000, "top":80,  "turn":70, "climb":100}
+            ],
+            "maxDive":1500,
+            "ceiling":24000,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat ground attack", "fighter", "recon"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":13},
+                {"area":"RF", "points":18},
+                {"area":"T",  "points":13},
+                {"area":"LW", "points":14},
+                {"area":"CW", "points":14},
+                {"area":"RW", "points":14}
+            ]
+        },            
+
+        {
+            "planeType":"O. Aviatik (Berg) D I",
+            "engine":"200hp Austro-Diamler",
+            "serviceStartDate":"1917-10-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":90, "climb":400},
+                {"alt":9950,  "top":110, "turn":80, "climb":350},
+                {"alt":14950, "top":100, "turn":80, "climb":250},
+                {"alt":20150, "top":90,  "turn":70, "climb":150}
+            ],
+            "maxDive":1500,
+            "ceiling":20150,
+            "armament":[
+                {"gunType":"schwarzlose", "mount":"ff", "rounds":30, "store":"belt"},
+                {"gunType":"schwarzlose", "mount":"ff", "rounds":30, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["Austro-Hungarian"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Pfalz D XII",
+            "engine":"180hp Mercedes",
+            "serviceStartDate":"1918-9-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":120, "turn":100, "climb":350},
+                {"alt":9950,  "top":110, "turn":90,  "climb":250},
+                {"alt":14950, "top":110, "turn":90,  "climb":200},
+                {"alt":18500, "top":100, "turn":80,  "climb":150}
+            ],
+            "maxDive":1550,
+            "ceiling":18500,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Roland D IIa",
+            "engine":"180hp Argus",
+            "serviceStartDate":"1917-2-1",
+            "serviceEndDate":"1917-8-1",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":70, "climb":250},
+                {"alt":9950,  "top":100, "turn":70, "climb":200},
+                {"alt":14950, "top":90,  "turn":60, "climb":150},
+                {"alt":16400, "top":80,  "turn":60, "climb":100}
+            ],
+            "maxDive":1500,
+            "ceiling":16400,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":10},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":11},
+                {"area":"RW", "points":11}
+            ]
+        },            
+
+        {
+            "planeType":"Siemens-Schuckert D IV",
+            "engine":"200hp Siemens-Halske",
+            "serviceStartDate":"1918-8-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":120, "turn":110, "climb":500},
+                {"alt":9950,  "top":110, "turn":110, "climb":450},
+                {"alt":14950, "top":100, "turn":100, "climb":400},
+                {"alt":26250, "top":100, "turn":100, "climb":300}
+            ],
+            "maxDive":1500,
+            "ceiling":26250,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"A.E.G. C IV",
+            "engine":"160hp Mercedes",
+            "serviceStartDate":"1916-5-1",
+            "serviceEndDate":"1918-8-1",
+            "performanceStats": [
+                {"alt":4950,  "top":100, "turn":70, "climb":200},
+                {"alt":9950,  "top":90,  "turn":70, "climb":150},
+                {"alt":14950, "top":80,  "turn":60, "climb":100},
+                {"alt":16400, "top":70,  "turn":60, "climb":50}
+            ],
+            "maxDive":1400,
+            "ceiling":16400,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat recon", "observation", "recon"],
+            "nationality":["German", "Turkish", "Bulgarian"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":11},
+                {"area":"RW", "points":11}
+            ]
+        },            
+
+        {
+            "planeType":"Albatros C XII",
+            "engine":"260hp Mercedes",
+            "serviceStartDate":"1918-5-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":80, "climb":250},
+                {"alt":9950,  "top":110, "turn":80, "climb":200},
+                {"alt":14950, "top":100, "turn":70, "climb":150},
+                {"alt":18500, "top":90,  "turn":60, "climb":100}
+            ],
+            "maxDive":1400,
+            "ceiling":18500,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat obs", "recon"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Albatros (Oeffag) D III",
+            "engine":"185hp Austro-Daimler",
+            "serviceStartDate":"1917-5-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":80, "climb":300},
+                {"alt":9950,  "top":100, "turn":80, "climb":250},
+                {"alt":14950, "top":100, "turn":70, "climb":150},
+                {"alt":18000, "top":90,  "turn":70, "climb":100}
+            ],
+            "maxDive":1450,
+            "ceiling":18000,
+            "armament":[
+                {"gunType":"schwarzlose", "mount":"ff", "rounds":30, "store":"belt"},
+                {"gunType":"schwarzlose", "mount":"ff", "rounds":30, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["Austro-Hungarian"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":10},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":11},
+                {"area":"RW", "points":11}
+            ]
+        },            
+
+        {
+            "planeType":"Albatros W.4",
+            "engine":"160hp Mercedes",
+            "serviceStartDate":"1917-4-1",
+            "serviceEndDate":"1918-5-1",
+            "performanceStats": [
+                {"alt":4950,  "top":100, "turn":70, "climb":200},
+                {"alt":9850,  "top":90,  "turn":60, "climb":100}
+            ],
+            "maxDive":1350,
+            "ceiling":9850,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
+            ],
+            "primaryUses":["single seat seaplane fighter"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":10},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":11},
+                {"area":"RW", "points":11}
+            ]
+        },            
+
+        {
+            "planeType":"Fokker D VII",
+            "engine":"185hp B.M.W.",
+            "serviceStartDate":"1918-7-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":120, "turn":110, "climb":400},
+                {"alt":9950,  "top":120, "turn":110, "climb":350},
+                {"alt":14950, "top":110, "turn":100, "climb":300},
+                {"alt":22900, "top":100, "turn":90,  "climb":200}
+            ],
+            "maxDive":1500,
+            "ceiling":22900,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":12},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Albatros C VII",
+            "engine":"200hp Benz",
+            "serviceStartDate":"1916-12-1",
+            "serviceEndDate":"1917-12-1",
+            "performanceStats": [
+                {"alt":4950,  "top":100, "turn":70, "climb":200},
+                {"alt":9950,  "top":90,  "turn":70, "climb":150},
+                {"alt":14950, "top":90,  "turn":60, "climb":100},
+                {"alt":16400, "top":80,  "turn":60, "climb":50}
+            ],
+            "maxDive":1400,
+            "ceiling":16400,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat obs", "recon"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":10},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":10},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":11},
+                {"area":"RW", "points":11}
+            ]
+        },            
+
+        {
+            "planeType":"Albatros D II",
+            "engine":"160hp Mercedes",
+            "serviceStartDate":"1916-11-1",
+            "serviceEndDate":"1917-8-1",
+            "performanceStats": [
+                {"alt":4950,  "top":100, "turn":70, "climb":250},
+                {"alt":9950,  "top":90,  "turn":70, "climb":150},
+                {"alt":14950, "top":80,  "turn":60, "climb":100},
+                {"alt":17000, "top":80,  "turn":60, "climb":100}
+            ],
+            "maxDive":1400,
+            "ceiling":17000,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":10},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":11},
+                {"area":"RW", "points":11}
+            ]
+        },            
+
+        {
+            "planeType":"Albatros D V",
+            "engine":"160hp Mercedes",
+            "serviceStartDate":"1917-11-1",
+            "serviceEndDate":"1918-8-1",
+            "performanceStats": [
+                {"alt":4950,  "top":100, "turn":80, "climb":300},
+                {"alt":9950,  "top":90,  "turn":70, "climb":250},
+                {"alt":14950, "top":90,  "turn":70, "climb":200},
+                {"alt":20500, "top":80,  "turn":60, "climb":100}
+            ],
+            "maxDive":1350,
+            "ceiling":20500,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"D.F.W. C V",
+            "engine":"200hp Benz",
+            "serviceStartDate":"1916-12-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":100, "turn":80, "climb":250},
+                {"alt":9950,  "top":100, "turn":70, "climb":200},
+                {"alt":14950, "top":90,  "turn":70, "climb":150},
+                {"alt":21000, "top":80,  "turn":60, "climb":100}
+            ],
+            "maxDive":1400,
+            "ceiling":21000,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat recon", "observation"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":11},
+                {"area":"RW", "points":11}
+            ]
+        },            
+
+        {
+            "planeType":"Fokker D VIII",
+            "engine":"110hp Oberursel",
+            "serviceStartDate":"1918-10-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":120, "turn":110, "climb":400},
+                {"alt":9950,  "top":110, "turn":110, "climb":350},
+                {"alt":14950, "top":110, "turn":100, "climb":300},
+                {"alt":21000, "top":100, "turn":100, "climb":200}
+            ],
+            "maxDive":1500,
+            "ceiling":21000,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":11}
+            ]
+        },            
+
+        {
+            "planeType":"Albatros C X",
+            "engine":"260hp Mercedes",
+            "serviceStartDate":"1917-9-1",
+            "serviceEndDate":"1918-7-1",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":80, "climb":200},
+                {"alt":9950,  "top":100, "turn":70, "climb":150},
+                {"alt":14950, "top":100, "turn":70, "climb":100},
+                {"alt":16400, "top":90,  "turn":60, "climb":50}
+            ],
+            "maxDive":1400,
+            "ceiling":16400,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
+            ],
+            "primaryUses":["two seat obs", "recon"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Albatros D III",
+            "engine":"160hp Mercedes",
+            "serviceStartDate":"1917-9-1",
+            "serviceEndDate":"1918-7-1",
+            "performanceStats": [
+                {"alt":4950,  "top":100, "turn":80, "climb":300},
+                {"alt":9950,  "top":90,  "turn":70, "climb":250},
+                {"alt":14950, "top":90,  "turn":60, "climb":150},
+                {"alt":18000, "top":80,  "turn":60, "climb":100}
+            ],
+            "maxDive":1350,
+            "ceiling":18000,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["German", "Turkish"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":15},
+                {"area":"T",  "points":10},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":11},
+                {"area":"RW", "points":11}
+            ]
+        },            
+
+        {
+            "planeType":"Albatros D Va",
+            "engine":"180hp Mercedes",
+            "serviceStartDate":"1917-1-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":80, "climb":300},
+                {"alt":9950,  "top":100, "turn":80, "climb":250},
+                {"alt":14950, "top":90,  "turn":70, "climb":200},
+                {"alt":20500, "top":90,  "turn":70, "climb":150}
+            ],
+            "maxDive":1400,
+            "ceiling":20500,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":11},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Fokker D VII",
+            "engine":"160hp Mercedes",
+            "serviceStartDate":"1918-5-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":100, "climb":250},
+                {"alt":9950,  "top":110, "turn":100, "climb":200},
+                {"alt":14950, "top":100, "turn":90,  "climb":150},
+                {"alt":19600, "top":90,  "turn":90,  "climb":100}
+            ],
+            "maxDive":1500,
+            "ceiling":19600,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":11},
+                {"area":"RF", "points":16},
+                {"area":"T",  "points":12},
+                {"area":"LW", "points":12},
+                {"area":"CW", "points":13},
+                {"area":"RW", "points":12}
+            ]
+        },            
+
+        {
+            "planeType":"Fokker Dr I",
+            "engine":"110hp Oberursel",
+            "serviceStartDate":"1917-12-1",
+            "serviceEndDate":"1918-11-11",
+            "performanceStats": [
+                {"alt":4950,  "top":110, "turn":110, "climb":450},
+                {"alt":9950,  "top":100, "turn":100, "climb":400},
+                {"alt":14950, "top":90,  "turn":90,  "climb":300},
+                {"alt":19600, "top":80,  "turn":80,  "climb":200}
+            ],
+            "maxDive":1450,
+            "ceiling":19600,
+            "armament":[
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
+                {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
+            ],
+            "primaryUses":["single seat fighter"],
+            "nationality":["German"],
+            "hitProfiles":[
+                {"area":"E",  "points":6},
+                {"area":"FF", "points":10},
+                {"area":"RF", "points":14},
+                {"area":"T",  "points":10},
+                {"area":"LW", "points":11},
+                {"area":"CW", "points":12},
+                {"area":"RW", "points":11}
+            ]
+        }    
+    ]
+}
