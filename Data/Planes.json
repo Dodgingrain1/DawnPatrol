@@ -18,7 +18,8 @@
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat obs", "recon", "ground attack"],
+            "crew":2,
+            "primaryUses":["observation", "reconnaissance", "ground attack"],
             "nationality":["British"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -51,7 +52,8 @@
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"},
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat fighter", "recon", "ground attack"],
+            "crew":2,
+            "primaryUses":["fighter", "reconnaissance", "ground attack"],
             "nationality":["British"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -82,7 +84,8 @@
             "armament":[
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter", "ground attack"],
+            "crew":1,
+            "primaryUses":["fighter", "ground attack"],
             "nationality":["British"],
             "hitProfiles":[
                 {"area":"E", "points":6},
@@ -115,7 +118,8 @@
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"},
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat obs","recon","bombing"],
+            "crew":2,
+            "primaryUses":["observation","reconnaissance","bombing"],
             "nationality":["French"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -147,7 +151,8 @@
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
                 {"gunType":"lewis", "mount":"ff wing", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["French","British","Italian","Belgian"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -181,7 +186,8 @@
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"},
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat obs", "two seat bombing", "recon"],
+            "crew":2,
+            "primaryUses":["observation", "bombing", "reconnaissance"],
             "nationality":["American"],
             "hitProfiles":[
                 {"area":"E",  "points":7},
@@ -215,7 +221,8 @@
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"},
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat obs", "two seat bombing", "recon"],
+            "crew":2,
+            "primaryUses":["observation", "bombing", "reconnaissance"],
             "nationality":["American"],
             "hitProfiles":[
                 {"area":"E",  "points":7},
@@ -246,7 +253,8 @@
             "armament":[
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["Italian","Belgian"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -278,7 +286,8 @@
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["American"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -311,7 +320,8 @@
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"},
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat bombing", "recon"],
+            "crew":2,
+            "primaryUses":["bombing", "reconnaissance"],
             "nationality":["French","Belgian","American"],
             "hitProfiles":[
                 {"area":"E",  "points":7},
@@ -344,7 +354,8 @@
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"},
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat bombing","recon"],
+            "crew":2,
+            "primaryUses":["bombing","reconnaissance"],
             "nationality":["British"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -377,7 +388,8 @@
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"},
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat bombing"],
+            "crew":2,
+            "primaryUses":["bombing"],
             "nationality":["British"],
             "hitProfiles":[
                 {"area":"E",  "points":7},
@@ -409,7 +421,8 @@
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["French"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -441,7 +454,8 @@
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat recon", "observation"],
+            "crew":2,
+            "primaryUses":["reconnaissance", "observation"],
             "nationality":["Italian"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -472,7 +486,8 @@
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat obs", "recon", "ground attack"],
+            "crew":2,
+            "primaryUses":["observation", "reconnaissance", "ground attack"],
             "nationality":["British", "Belgian"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -504,7 +519,8 @@
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
                 {"gunType":"lewis", "mount":"ff wing", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["single seat fighter", "ground attack"],
+            "crew":1,
+            "primaryUses":["fighter", "ground attack"],
             "nationality":["British"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -536,7 +552,8 @@
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter", "ground attack"],
+            "crew":1,
+            "primaryUses":["fighter", "ground attack"],
             "nationality":["British"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -568,7 +585,8 @@
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter", "ground attack"],
+            "crew":1,
+            "primaryUses":["fighter", "ground attack"],
             "nationality":["British"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -599,7 +617,8 @@
             "armament":[
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["French","British","Italian","Belgian"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -634,7 +653,8 @@
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"},
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat recon", "ground attack"],
+            "crew":2,
+            "primaryUses":["reconnaissance", "ground attack"],
             "nationality":["French","American"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -666,7 +686,8 @@
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
                 {"gunType":"vickers", "mount":"ff wing", "rounds":40, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter","ground attack"],
+            "crew":1,
+            "primaryUses":["fighter","ground attack"],
             "nationality":["British"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -700,7 +721,8 @@
                 {"gunType":"lewis", "mount":"ff flx", "rounds":10, "store":"drum"},
                 {"gunType":"lewis", "mount":"ff flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["single seat fighter","ground attack"],
+            "crew":1,
+            "primaryUses":["fighter","ground attack"],
             "nationality":["British"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -732,7 +754,8 @@
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["single seat bombing", "two seat bombing", "recon", "ground attack"],
+            "crew":2,
+            "primaryUses":["bombing", "reconnaissance", "ground attack"],
             "nationality":["British", "French", "Belgian"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -765,7 +788,8 @@
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"},
                 {"gunType":"lewis", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat obs","recon","bombing"],
+            "crew":2,
+            "primaryUses":["observation","reconnaissance","bombing"],
             "nationality":["French", "Belgian"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -797,7 +821,8 @@
                 {"gunType":"revelli", "mount":"ff wing", "rounds":10, "store":"drum"},
                 {"gunType":"revelli", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat obs","recon","ground attack"],
+            "crew":2,
+            "primaryUses":["observation","reconnaissance","ground attack"],
             "nationality":["Italian"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -829,7 +854,8 @@
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter", "ground attack"],
+            "crew":1,
+            "primaryUses":["fighter", "ground attack"],
             "nationality":["British", "American"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -860,7 +886,8 @@
             "armament":[
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter", "ground attack"],
+            "crew":1,
+            "primaryUses":["fighter", "ground attack"],
             "nationality":["British"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -891,7 +918,8 @@
             "armament":[
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["British"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -923,7 +951,8 @@
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"},
                 {"gunType":"vickers", "mount":"ff", "rounds":40, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["French", "American", "Italian", "Belgian"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -955,7 +984,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat ground attack", "fighter"],
+            "crew":2,
+            "primaryUses":["ground attack", "fighter"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -987,7 +1017,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat obs", "recon", "ground attack"],
+            "crew":2,
+            "primaryUses":["observation", "reconnaissance", "ground attack"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1019,7 +1050,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1051,7 +1083,8 @@
                 {"gunType":"schwarzlose", "mount":"ff", "rounds":30, "store":"belt"},
                 {"gunType":"schwarzlose", "mount":"ff", "rounds":30, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["Austro-Hungarian"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1083,7 +1116,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1115,7 +1149,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"belt"}
             ],
-            "primaryUses":["two seat ground attack", "fighter"],
+            "crew":2,
+            "primaryUses":["ground attack", "fighter"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1147,7 +1182,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"belt"}
             ],
-            "primaryUses":["two seat obs", "ground attack", "recon"],
+            "crew":2,
+            "primaryUses":["observation", "ground attack", "reconnaissance"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1179,7 +1215,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1211,7 +1248,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat recon"],
+            "crew":2,
+            "primaryUses":["reconnaissance"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1243,7 +1281,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat recon"],
+            "crew":2,
+            "primaryUses":["reconnaissance"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1275,7 +1314,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat ground attack", "fighter", "recon"],
+            "crew":2,
+            "primaryUses":["ground attack", "fighter", "reconnaissance"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1307,7 +1347,8 @@
                 {"gunType":"schwarzlose", "mount":"ff", "rounds":30, "store":"belt"},
                 {"gunType":"schwarzlose", "mount":"ff", "rounds":30, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["Austro-Hungarian"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1339,7 +1380,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1371,7 +1413,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1403,7 +1446,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1435,7 +1479,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat recon", "observation", "recon"],
+            "crew":2,
+            "primaryUses":["reconnaissance", "observation"],
             "nationality":["German", "Turkish", "Bulgarian"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1467,7 +1512,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat obs", "recon"],
+            "crew":2,
+            "primaryUses":["observation", "reconnaissance"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1499,7 +1545,8 @@
                 {"gunType":"schwarzlose", "mount":"ff", "rounds":30, "store":"belt"},
                 {"gunType":"schwarzlose", "mount":"ff", "rounds":30, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["Austro-Hungarian"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1529,7 +1576,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
             ],
-            "primaryUses":["single seat seaplane fighter"],
+            "crew":1,
+            "primaryUses":["seaplane fighter"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1561,7 +1609,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1593,7 +1642,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat obs", "recon"],
+            "crew":2,
+            "primaryUses":["observation", "reconnaissance"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1625,7 +1675,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1657,7 +1708,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1689,7 +1741,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat recon", "observation"],
+            "crew":2,
+            "primaryUses":["reconnaissance", "observation"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1721,7 +1774,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1753,7 +1807,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"parabellum", "mount":"flx", "rounds":10, "store":"drum"}
             ],
-            "primaryUses":["two seat obs", "recon"],
+            "crew":2,
+            "primaryUses":["observation", "reconnaissance"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1785,7 +1840,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["German", "Turkish"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1817,7 +1873,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1849,7 +1906,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
@@ -1881,7 +1939,8 @@
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"},
                 {"gunType":"spandau", "mount":"ff", "rounds":50, "store":"belt"}
             ],
-            "primaryUses":["single seat fighter"],
+            "crew":1,
+            "primaryUses":["fighter"],
             "nationality":["German"],
             "hitProfiles":[
                 {"area":"E",  "points":6},
