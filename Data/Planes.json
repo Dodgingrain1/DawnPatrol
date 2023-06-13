@@ -1,5 +1,4 @@
-{
-    "planes": [
+[
         {
             "id":1,
             "planeType" : "Armstrong-Whitworth F.K 8",
@@ -1894,5 +1893,4 @@
                 {"area":"RW", "points":11}
             ]
         }    
-    ]
-}
+]
