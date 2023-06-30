@@ -22,6 +22,7 @@ app.use((req, res, next)=>{
 
 const planeRoutes = require('./Routes/planes.js');
 const playerRoutes = require('./Routes/players.js');
+const gameRoutes = require('./Routes/games.js');
 
 // mongoose stuff
 const mongoose = require('mongoose');
@@ -43,6 +44,7 @@ app.get('/',(req, res, next) =>{
 
 app.use('/planes', planeRoutes);
 app.use('/players', playerRoutes);
+app.use('/games',gameRoutes);
 
 app.use((req, res, next)=>{
     const error = new Error('Not found');

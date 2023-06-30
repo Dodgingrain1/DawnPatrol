@@ -83,7 +83,7 @@ router.post('/', async (req, res, next)=> {
 router.put('/:id', async(req, res, next)=>{
   try{
     const {id} = req.params;
-    const player = await Player.findByIdAndUpdate(id,req.body);
+    const player = await Player.findByIdAndUpdate(id,req.body, {new: true});
     if (!player){
         return res.status(404).json({message: `cannot find player with id ${id}`});
     }
@@ -96,7 +96,6 @@ router.put('/:id', async(req, res, next)=>{
 
     // there has to be a cleaner way to do this...
     const playerWithRequest = player.toJSON();
-    playerWithRequest._id = id;
     playerWithRequest.request = request;
     res.status(201).json(playerWithRequest);
   } 
@@ -109,7 +108,7 @@ router.put('/:id', async(req, res, next)=>{
 router.patch('/:id', async(req, res, next)=>{
     try{
         const {id} = req.params;
-        const player = await Player.findByIdAndUpdate(id,req.body);
+        const player = await Player.findByIdAndUpdate(id,req.body, {new: true});
         if (!player){
             return res.status(404).json({message: `cannot find player with id ${id}`});
         }
@@ -122,7 +121,6 @@ router.patch('/:id', async(req, res, next)=>{
 
         // there has to be a cleaner way to do this...
         const playerWithRequest = player.toJSON();
-        playerWithRequest._id = id;
         playerWithRequest.request = request;
         res.status(201).json(playerWithRequest);
     } 
