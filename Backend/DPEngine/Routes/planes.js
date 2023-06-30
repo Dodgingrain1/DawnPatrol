@@ -1,10 +1,11 @@
 const express = require('express');
 const router = express.Router();
+const checkAuth = require('../middleware/check-auth.js');
 
 const Plane = require('../Models/planeModel.js');
 
 // all planes
-router.get('/', async(req,res, next)=>{
+router.get('/', checkAuth, async(req,res, next)=>{
   try{
       const planes = await Plane.find({})
           .then(docs =>{
@@ -29,11 +30,11 @@ router.get('/', async(req,res, next)=>{
   catch(error){
       res.status(500).json({message: error.message});         
   } 
-})
+});
 
 
 // get single plane by id
-router.get('/:id', async(req,res, next)=>{
+router.get('/:id', checkAuth, async(req,res, next)=>{
   try{
       const {id} = req.params;
       const plane = await Plane.findById(id);
@@ -54,7 +55,7 @@ router.get('/:id', async(req,res, next)=>{
   catch(error){
       res.status(500).json({message: error.message});         
   } 
-})
+});
 
 /*
 // saves a plane assuming properly formed req, return plane

@@ -1,11 +1,12 @@
 const express = require('express');
 const router = express.Router();
 
+const checkAuth = require('../middleware/check-auth.js');
 const Game = require('../Models/gameModel.js');
 const Player = require('../Models/playerModel.js');
 
 // all games
-router.get('/', async(req,res, next)=>{
+router.get('/', checkAuth, async(req,res, next)=>{
     try{
         const games = await Game.find({})
             .then(docs =>{
@@ -31,10 +32,10 @@ router.get('/', async(req,res, next)=>{
     catch(error){
         res.status(500).json({message: error.message});         
     } 
-})
+});
 
 // get a single game
-router.get('/:id', async(req,res, next)=>{
+router.get('/:id', checkAuth, async(req,res, next)=>{
     try{
         const {id} = req.params;
         const game = await Game.findById(id);
@@ -55,11 +56,11 @@ router.get('/:id', async(req,res, next)=>{
     catch(error){
         res.status(500).json({message: error.message});         
     } 
-})
+});
 
 
 // saves a game assuming properly formed req, return game
-router.post('/', async (req, res, next)=> {
+router.post('/', checkAuth, async (req, res, next)=> {
     try{
         // validate players
         for(let i=0; i< req.body.players.length; i++){
@@ -90,11 +91,11 @@ router.post('/', async (req, res, next)=> {
     catch(error){
         res.status(500).json({message: error.message});        
     }
-})
+});
 
 
 // replace a game
-router.put('/:id', async(req, res, next)=>{
+router.put('/:id', checkAuth, async(req, res, next)=>{
   try{
     // validate players
     for(let i=0; i< req.body.players.length; i++){
@@ -126,10 +127,10 @@ router.put('/:id', async(req, res, next)=>{
   catch(error){
     res.status(500).json({message: error.message});  
   } 
-})
+});
 
 // update game
-router.patch('/:id', async(req, res, next)=>{
+router.patch('/:id', checkAuth, async(req, res, next)=>{
     try{
         // validate players
         if (req.body.hasOwnProperty("players")){
@@ -162,10 +163,10 @@ router.patch('/:id', async(req, res, next)=>{
     catch(error){
       res.status(500).json({message: error.message});  
     } 
-})
+});
 
 // delete game
-router.delete('/:id', async(req, res, next)=>{
+router.delete('/:id', checkAuth, async(req, res, next)=>{
   try{
     const {id} = req.params;
     const game = await Game.findByIdAndDelete(id);
@@ -187,7 +188,7 @@ router.delete('/:id', async(req, res, next)=>{
   catch (error){
     res.status(500).json({message: error.message});  
   } 
-})
+});
 
 
 module.exports = router;
