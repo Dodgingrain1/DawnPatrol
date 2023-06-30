@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 // sub schema
-const performanceStatsSchema = mongoose.Schema({
+const performanceStatsSchema = new mongoose.Schema({
     alt:{
         type: Number,
         required: [true, "alt is a required integer"]
@@ -21,7 +21,7 @@ const performanceStatsSchema = mongoose.Schema({
 })
 
 // sub schema
-const armamentSchema = mongoose.Schema({
+const armamentSchema = new mongoose.Schema({
     gunType:{
         type: String,
         required: [true, "gunType is a required string"]
@@ -41,7 +41,7 @@ const armamentSchema = mongoose.Schema({
 })
 
 // sub schema
-const hitProfilesSchema = mongoose.Schema({
+const hitProfilesSchema = new mongoose.Schema({
     area:{
         type: String,
         required: [true, "area is a required string"]
@@ -53,7 +53,7 @@ const hitProfilesSchema = mongoose.Schema({
 })
 
 // main schema
-const planeSchema = mongoose.Schema({
+const planeSchema = new mongoose.Schema({
     id:{
         type: Number,
         required: [true, "id is a required integer"]
