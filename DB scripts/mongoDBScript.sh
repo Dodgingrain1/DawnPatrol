@@ -163,6 +163,7 @@ db.teams.drop()
 db.games.drop()
 db.crew.drop()
 db.players.drop()
+db.scenarios.drop()
 
 # drop database, done within context of being connected to a database
 db.dropDatabase()

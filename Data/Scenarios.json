@@ -1,0 +1,280 @@
+[
+    {
+        "id":1,
+        "description":"A German ace is stalking three American D.H. 4's returning from a high level bombing mission. One has developed engine trouble and the other two have fallen behind the main formation to escort it back to the Allied lines.",
+        "playerCount": 2,
+        "gameDate": "1918-10-01T00:00:00.000Z",
+        "battleLocation": "German",
+        "wind":{
+            "direction":"N",
+            "speed":0
+        },
+        "cloudBanks":[],
+        "germanPlanes":[
+            {"id":49, "altitude":15500, "direction":"W", "location":{"x":10,"y":0}}
+        ],
+        "aliedPlanes":[
+            {"id":6, "altitude":14800, "direction":"W", "location":{"x":1,"y":0}},
+            {"id":6, "altitude":14700, "direction":"W", "location":{"x":-1,"y":2}},
+            {"id":6, "altitude":14700, "direction":"W", "location":{"x":-1,"y":-2}}
+        ]
+    },
+
+    {
+        "id": 2,
+        "description":"One on one battle between the two most famous planes of the war behind German lines.",
+        "playerCount":2,
+        "gameDate": "1918-05-01T00:00:00.000Z",
+        "battleLocation": "German",
+        "wind":{
+            "direction": "N",
+            "speed":0
+        },
+        "cloudBanks":[],
+        "germanPlanes":[
+            {"id":59, "altitude":3100, "direction":"W", "location":{"x":5,"y":0}}
+        ],
+        "aliedPlanes":[
+            {"id": 26, "altitude":3150, "direction":"E", "location":{"x":-5,"y":0}}
+        ]
+    },
+
+    {
+        "id":3,
+        "description": "Duel above the western front at low altitude featuring two outstanding aircraft",
+        "playerCount":2,
+        "gameDate": "1918-08-01T00:00:00.000Z",
+        "battleLocation": "Front",
+        "wind":{
+            "direction": "N",
+            "speed":0
+        },
+        "cloudBanks": [],
+        "germanPlanes":[
+            {"id":49, "altitude":2700, "direction":"W", "location":{"x":5,"y":0}}
+        ],
+        "aliedPlanes":[
+            {"id":22, "altitude":2700, "direction":"E", "location":{"x":-5,"y":0}}
+        ]
+    },
+
+    {
+        "id":4,
+        "description": "Two Belgian Hanriots attack an anchored drachen defended by a German Fokker triplane.",
+        "playerCount": 3,
+        "gameDate":"1918-02-01T00:00:00.000Z",
+        "battleLocation":"German",
+        "wind":{
+            "direction":"N",
+            "speed":0
+        },
+        "cloudBanks": [{"topAltitude":3000, "bottomAltitude":2600}],
+        "germanPlanes":[
+            {"id":59, "altitude":2400, "direction":"W", "location":{"x":-12,"y":0}}
+        ],
+        "aliedPlanes":[
+            {"id":8, "altitude":1400, "direction":"E", "location":{"x":10,"y":1}},
+            {"id":8, "altitude":1400, "direction":"E", "location":{"x":10,"y":-1}}
+        ]
+    },
+
+    {
+        "id":5,
+        "description":"Two roaming Albatros sea planes have meet an R.E.8 on a test flight over the North Sea.",
+        "playerCount": 3,
+        "gameDate":"1918-02-01T00:00:00.000Z",
+        "battleLocation": "At Sea",
+        "wind":{
+            "direction":"W",
+            "speed": 10
+        },
+        "cloudBanks":[],
+        "germanPlanes":[
+            {"id":48, "altitude": 3000, "direction":"E", "location":{"x":8,"y":0}},
+            {"id":48, "altitude": 3000, "direction":"E", "location":{"x":8,"y":-1}}
+        ],
+        "aliedPlanes":[
+            {"id":15, "altitude":2900, "direction":"NW", "location":{"x":0,"y":0}}
+        ]
+    },
+
+    {
+        "id":6,
+        "description":"This is a recreation of the historic air battle that resulted in the first two victories for the fledgling U.S. Air Service on April 14, 1918.  Two American lieutenants of the 94th Aero Squadron, Douglas Campbell and Alan Winslow, responded to a sighting of two German fighters by taking off immediately and engaging over the airfield in full view of the rest of the squadron.",
+        "playerCount": 4,
+        "gameDate":"1918-04-14T00:00:00.000Z",
+        "battleLocation": "Allied",
+        "wind":{
+            "direction":"N",
+            "speed":0
+        },
+        "cloudBanks":[],
+        "germanPlanes":[
+            {"id":57, "altitude":4700, "direction":"N", "location":{"x":0,"y":0}},
+            {"id":37, "altitude":4700, "direction":"N", "location":{"x":0,"y":2}}
+        ],
+        "aliedPlanes":[
+            {"id":9, "altitude":4800, "direction":"W", "location":{"x":9,"y":0}},
+            {"id":9, "altitude":4800, "direction":"W", "location":{"x":9,"y":-1}}
+        ]
+    },
+
+    {
+        "id":7,
+        "description":"This air battle occurs in the last weeks of the war and pits two of the finest aircraft types against each other.",
+        "playerCount":4,
+        "gameDate":"1918-10-01T00:00:00.000Z",
+        "battleLocation":"Front",
+        "wind":{
+            "direction":"W",
+            "speed":10
+        },
+        "cloudBanks": [{"topAltitude":4200, "bottomAltitude":3600}],
+        "germanPlanes":[
+            {"id":54, "altitude":14700, "direction":"W", "location":{"x":7,"y":1}},
+            {"id":54, "altitude":14700, "direction":"W", "location":{"x":7,"y":-1}}
+        ],
+        "aliedPlanes":[
+            {"id":18, "altitude":14750, "direction":"E", "location":{"x":0,"y":1}},
+            {"id":18, "altitude":14750, "direction":"E", "location":{"x":0,"y":-1}}
+        ]
+    },
+
+    {
+        "id":8,
+        "description":"Two Pfalzes are attacking theree British D.H. 5's that have just dropped bombs in a ground attack on German positions during the Battle of Cambrai.",
+        "playerCount":5,
+        "gameDate":"1917-11-01T00:00:00.000Z",
+        "battleLocation":"German",
+        "wind":{
+            "direction":"N",
+            "speed":0
+        },
+        "cloudBanks":[{"topAltitude":2700, "bottomAltitude":2200}],
+        "germanPlanes":[
+            {"id":32, "altitude":1050, "direction":"N", "location":{"x":-1,"y":-9}},
+            {"id":32, "altitude":1050, "direction":"N", "location":{"x":1,"y":-9}}
+        ],
+        "aliedPlanes":[
+            {"id":3, "altitude":200, "direction":"N", "location":{"x":0,"y":0}},
+            {"id":3, "altitude":200, "direction":"N", "location":{"x":0,"y":-2}},
+            {"id":3, "altitude":200, "direction":"N", "location":{"x":0,"y":-4}}
+        ]
+    },
+
+    {
+        "id":9,
+        "description":"Two American Nueports are pitted against a pair of scrappy German two seaters.",
+        "playerCount":4,
+        "gameDate":"1918-06-01T00:00:00.000Z",
+        "battleLocation":"German",
+        "wind":{
+            "direction":"N",
+            "speed":0
+        },
+        "cloudBanks":[{"topAltitude":3600, "bottomAltitude":3200}],
+        "germanPlanes":[
+            {"id":40, "altitude":6950, "direction":"N", "location":{"x":0,"y":0}},
+            {"id":40, "altitude":6950, "direction":"N", "location":{"x":1,"y":0}}
+        ],
+        "aliedPlanes":[
+            {"id":9, "altitude":6950, "direction":"N", "location":{"x":3,"y":8}},
+            {"id":9, "altitude":6950, "direction":"N", "location":{"x":4,"y":8}}
+        ]
+    },
+
+    {
+        "id":10,
+        "description":"This battle on the Italian front begins as four Italian fighters dive at threee Austro-Hungarian planes that are climbing to meet them.",
+        "playerCount":7,
+        "gameDate":"1917-11-01T00:00:00.000Z",
+        "battleLocation":"Front",
+        "wind":{
+            "direction":"N",
+            "speed":0
+        },
+        "cloudBanks":[{"topAltitude":2100, "bottomAltitude":1700}],
+        "germanPlanes":[
+            {"id":47, "altitude":5900, "direction":"S", "location":{"x":-1,"y":5}},
+            {"id":47, "altitude":5900, "direction":"S", "location":{"x":1,"y":5}},
+            {"id":41, "altitude":5900, "direction":"S", "location":{"x":3,"y":5}}
+        ],
+        "aliedPlanes":[
+            {"id":8, "altitude":6800, "direction":"N", "location":{"x":-3,"y":-5}},
+            {"id":8, "altitude":6800, "direction":"N", "location":{"x":-1,"y":-5}},
+            {"id":8, "altitude":6800, "direction":"N", "location":{"x":1,"y":-5}},
+            {"id":8, "altitude":6800, "direction":"N", "location":{"x":3,"y":-5}}
+        ]
+    },
+
+    {
+        "id":11,
+        "description":"Evenly matched dogfight.",
+        "playerCount":8,
+        "gameDate":"1918-02-01T00:00:00.000Z",
+        "battleLocation":"Front",
+        "wind":{
+            "direction":"N",
+            "speed":0
+        },
+        "cloudBanks":[],
+        "germanPlanes":[
+            {"id":59, "altitude":8200, "direction":"W", "location":{"x":4,"y":1}},
+            {"id":59, "altitude":8200, "direction":"W", "location":{"x":4,"y":3}},
+            {"id":59, "altitude":8200, "direction":"W", "location":{"x":4,"y":-1}},
+            {"id":59, "altitude":8200, "direction":"W", "location":{"x":4,"y":-3}}
+        ],
+        "aliedPlanes":[
+            {"id":17, "altitude":8200, "direction":"E", "location":{"x":-4,"y":1}},
+            {"id":17, "altitude":8200, "direction":"E", "location":{"x":-4,"y":3}},
+            {"id":17, "altitude":8200, "direction":"E", "location":{"x":-4,"y":-1}},
+            {"id":17, "altitude":8200, "direction":"E", "location":{"x":-4,"y":-3}}
+        ]
+    },
+
+    {
+        "id":12,
+        "description":"Evenly matched dogfight.",
+        "playerCount":8,
+        "gameDate":"1918-09-01T00:00:00.000Z",
+        "battleLocation":"Front",
+        "wind":{
+            "direction":"N",
+            "speed":0
+        },
+        "cloudBanks":[],
+        "germanPlanes":[
+            {"id":49, "altitude":4300, "direction":"E", "location":{"x":5,"y":-1}},
+            {"id":49, "altitude":4300, "direction":"E", "location":{"x":5,"y":1}},
+            {"id":42, "altitude":5200, "direction":"E", "location":{"x":10,"y":-1}},
+            {"id":42, "altitude":5200, "direction":"E", "location":{"x":10,"y":-1}}
+        ],
+        "aliedPlanes":[
+            {"id":22, "altitude":4350, "direction":"W", "location":{"x":-5,"y":1}},
+            {"id":22, "altitude":4350, "direction":"W", "location":{"x":-5,"y":3}},
+            {"id":22, "altitude":4350, "direction":"W", "location":{"x":-5,"y":-1}},
+            {"id":22, "altitude":4350, "direction":"W", "location":{"x":-5,"y":-3}}
+        ]
+    },
+
+    {
+        "id":13,
+        "description":"Historical battle with experienced pilots on September 22, 1918.",
+        "playerCount":4,
+        "gameDate":"1918-09-22T00:00:00.000Z",
+        "battleLocation":"German",
+        "wind":{
+            "direction":"N",
+            "speed":0
+        },
+        "cloudBanks":[],
+        "germanPlanes":[
+            {"id":49, "altitude":6000, "direction":"W", "location":{"x":5,"y":1}},
+            {"id":49, "altitude":6000, "direction":"W", "location":{"x":5,"y":-1}}
+        ],
+        "aliedPlanes":[
+            {"id":26, "altitude":5800, "direction":"E", "location":{"x":-5,"y":1}},
+            {"id":26, "altitude":5800, "direction":"E", "location":{"x":-5,"y":-1}}
+        ]
+    }
+]

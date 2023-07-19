@@ -1,24 +1,11 @@
-const express = require('express');
-const router = express.Router();
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const checkAuth = require('../middleware/check-auth.js');
-const UserController = require('../Controllers/users.js');
+
 //const Player = require('../Models/userModel.js');
-//const User = require('../Models/userModel.js');
+const User = require('../Models/userModel.js');
 
-// sign up/add user
-router.post('/signup', UserController.user_signup);
-
-// login a user and return a JWT
-router.post('/login', UserController.user_login);
-
-// delete a user
-router.delete('/:id', checkAuth, UserController.user_delete);
-
-/*
 // user signup
-router.post('/signup', (req, res, next)=> {
+exports.user_signup= (req, res, next)=> {
     try{
         // check to make sure the user doesn't already exist
         User.find({email: req.body.email})
@@ -52,10 +39,10 @@ router.post('/signup', (req, res, next)=> {
     catch(error){
         res.status(500).json({message: error.message});        
     }
-});
+};
 
 // login user, get jwt
-router.post('/login', async (req, res, next) =>{
+exports.user_login = async (req, res, next) =>{
     try{
         await User.find({email: req.body.email})
         .then(users =>{
@@ -94,11 +81,10 @@ router.post('/login', async (req, res, next) =>{
     catch (error){
         res.status(500).json({message: error.message});  
     }
-});
-
+};
 
 // delete a user
-router.delete('/:id', checkAuth, async(req, res, next)=>{
+exports.user_delete = async(req, res, next)=>{
     try{
       const {id} = req.params;
       const user = await User.findByIdAndDelete(id);
@@ -120,7 +106,4 @@ router.delete('/:id', checkAuth, async(req, res, next)=>{
     catch (error){
       res.status(500).json({message: error.message});  
     } 
-  });
-*/
-
-module.exports = router;
+  };

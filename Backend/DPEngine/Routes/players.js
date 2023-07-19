@@ -1,159 +1,24 @@
 const express = require('express');
 const router = express.Router();
-
 const checkAuth = require('../middleware/check-auth.js');
-const Player = require('../Models/playerModel.js');
+const PlayerController = require('../Controllers/players.js');
 
 // all players
-router.get('/', checkAuth, async(req,res, next)=>{
-    try{
-        const players = await Player.find({})
-            .then(docs =>{
-                const response = {
-                    count: docs.length,
-                    players: docs.map(doc =>{
-                        return{
-                            _id: doc._id,
-                            id: doc.id,
-                            name: doc.name,
-                            request: {
-                                type: 'GET',
-                                description: 'get specific player',
-                                url: 'http://localhost:3000/players/' + doc._id
-                            }
-                        }
-                    })
-                }
-                res.status(200).json(response);            
-            });
-    }   
-    catch(error){
-        res.status(500).json({message: error.message});         
-    } 
-});
+router.get('/', checkAuth, PlayerController.players_get_all);
 
 // get a single player
-router.get('/:id', checkAuth, async(req,res, next)=>{
-    try{
-        const {id} = req.params;
-        const player = await Player.findById(id);
-        if (!player){
-            return res.status(404).json({message: `cannot find player with id ${id}`});
-        }
-        const request = {
-                type: 'GET',
-                description: 'get all players',
-                url: 'http://localhost:3000/players'
-        };
-
-        // there has to be a cleaner way to do this...
-        const playerWithRequest = player.toJSON();
-        playerWithRequest.request = request;
-        res.status(200).json(playerWithRequest);
-    }   
-    catch(error){
-        res.status(500).json({message: error.message});         
-    } 
-});
-
+router.get('/:id', checkAuth, PlayerController.players_get_one);
 
 // saves a player assuming properly formed req, return player
-router.post('/', checkAuth, async (req, res, next)=> {
-    try{
-        const player = new Player(req.body);
-        await player.save();
-
-        res.status(201).json({
-            createdPlayer: {
-                id: player.id,
-                name: player.name,
-                request:{
-                    type: 'GET',
-                    description: 'get specific player',
-                    url: 'http://localhost:3000/players/' + player._id
-                }
-            }
-        });
-    }
-    catch(error){
-        res.status(500).json({message: error.message});        
-    }
-});
+router.post('/', checkAuth, PlayerController.players_save_one);
 
 // replace a player
-router.put('/:id', checkAuth, async(req, res, next)=>{
-  try{
-    const {id} = req.params;
-    const player = await Player.findByIdAndUpdate(id,req.body, {new: true});
-    if (!player){
-        return res.status(404).json({message: `cannot find player with id ${id}`});
-    }
-
-    const request = {
-        type: 'GET',
-        description: 'get player information',
-        url: `http://localhost:3000/players/${id}`
-    };
-
-    // there has to be a cleaner way to do this...
-    const playerWithRequest = player.toJSON();
-    playerWithRequest.request = request;
-    res.status(201).json(playerWithRequest);
-  } 
-  catch(error){
-    res.status(500).json({message: error.message});  
-  } 
-});
+router.put('/:id', checkAuth, PlayerController.players_replace_one);
 
 // update a player
-router.patch('/:id', checkAuth, async(req, res, next)=>{
-    try{
-        const {id} = req.params;
-        const player = await Player.findByIdAndUpdate(id,req.body, {new: true});
-        if (!player){
-            return res.status(404).json({message: `cannot find player with id ${id}`});
-        }
-
-        const request = {
-            type: 'GET',
-            description: 'get player information',
-            url: `http://localhost:3000/players/${id}`
-        };
-
-        // there has to be a cleaner way to do this...
-        const playerWithRequest = player.toJSON();
-        playerWithRequest.request = request;
-        res.status(201).json(playerWithRequest);
-    } 
-    catch(error){
-      res.status(500).json({message: error.message});  
-    } 
-});
+router.patch('/:id', checkAuth, PlayerController.players_update);
 
 // delete a player
-router.delete('/:id', checkAuth, async(req, res, next)=>{
-  try{
-    const {id} = req.params;
-    const player = await Player.findByIdAndDelete(id);
-    if (!player){
-        return res.status(404).json({message: `cannot find player with id ${id}`});
-    }
-
-    const request = {
-        type: 'GET',
-        description: 'get all players',
-        url: 'http://localhost:3000/players'
-    };
-
-    // there has to be a cleaner way to do this...
-    const playerWithRequest = player.toJSON();
-    playerWithRequest.request = request;
-    res.status(200).json(playerWithRequest);
-  } 
-  catch (error){
-    res.status(500).json({message: error.message});  
-  } 
-});
-
+router.delete('/:id', checkAuth, PlayerController.players_delete);
 
 module.exports = router;

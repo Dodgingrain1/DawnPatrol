@@ -24,6 +24,7 @@ const planeRoutes = require('./Routes/planes.js');
 const playerRoutes = require('./Routes/players.js');
 const gameRoutes = require('./Routes/games.js');
 const userRoutes = require('./Routes/users.js');
+const scenarioRoutes = require('./Routes/scenarios.js');
 
 // mongoose stuff
 const mongoose = require('mongoose');
@@ -47,8 +48,10 @@ app.use('/planes', planeRoutes);
 app.use('/players', playerRoutes);
 app.use('/games',gameRoutes);
 app.use('/users', userRoutes);
+app.use('/scenarios', scenarioRoutes);
 
 app.use((req, res, next)=>{
+    console.log ('default error');
     const error = new Error('Not found');
     error.status = 404;
     next(error);
